@@ -1,0 +1,1 @@
+The application loads `best.pt` from this directory, or a checkpoint configured by `YOLO_MODEL_PATH`. If the custom checkpoint is absent, it falls back to `yolov8n.pt`; that generic model is not trained for PPE compliance.

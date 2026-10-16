@@ -1,0 +1,14 @@
+# Replace paths with your YOLO-format dataset folders before training.
+path: ../dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Keep this ordering identical to the annotations and the configured checkpoint.
+names:
+  0: helmet
+  1: no-helmet
+  2: no-vest
+  3: person
+  4: vest
+  5: goggles
